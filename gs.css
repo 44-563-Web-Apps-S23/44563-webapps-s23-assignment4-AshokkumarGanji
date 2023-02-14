@@ -67,5 +67,23 @@
         color: var(--table-color-header);
       }
       
-
+      /* Added a style to gs.css applied to the name when the mouse is hovering.*/
+      .JOEL:hover{
+        border-style: solid;
+        color: rgb(12, 159, 245);
+        text-shadow: 4px 4px #2eca91;
+        background-color: rgb(211, 202, 206);
+        
+        
+        
+      }
+      
+      .ANDREW:hover{
+        border-style: solid;
+        color: rgb(17, 16, 16);
+        text-shadow: 5px 5px #a13333;
+        background-color:rgb(179, 230, 176);
+        
+      }
+      
     
