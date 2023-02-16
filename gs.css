@@ -6,7 +6,7 @@
 .speech{
     font-size: 12; 
     font-family: Verdana, Times, serif; 
-    color: black;
+    color: rgba(14, 14, 14, 0.925);
     }
 .direction{
     background-color: rgb(173, 197, 178);
@@ -50,7 +50,7 @@
       
       table, th, td {
         border: var(--table-border);
-        text-align: center;
+        text-align: center !important;
       }
       
       table {
@@ -73,23 +73,20 @@
       
       
       
-      /* Added a style to gs.css applied to the name when the mouse is hovering.*/
+      /* Added a style to gs.css applied to the name when the mouse is hovering. color: rgb(12, 159, 245);*/
       .JOEL:hover{
-        border-style: solid;
-        color: rgb(12, 159, 245);
-        text-shadow: 4px 4px #2eca91;
-        background-color: rgb(211, 202, 206);
         
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
         
-        
+       
       }
       
       .ANDREW:hover{
-        border-style: solid;
-        color: rgb(17, 16, 16);
-        text-shadow: 5px 5px #a13333;
-        background-color:rgb(179, 230, 176);
-        
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
       }
 
       .navbar-horizontal{
@@ -119,8 +116,8 @@
         float: left;
       }
       .img{
-        width: 45%;
-        height: 45%;
+        width: 150px;
+        height: 200px;
         margin-top: 30px;
       margin-bottom: 11px;
         margin-right: 100px;
